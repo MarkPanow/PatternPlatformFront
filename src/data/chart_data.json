@@ -1,0 +1,97 @@
+{
+  "chartData": [
+    {
+      "from": "Pattern A",
+      "nodeColor": "#363636",
+      "href": "patterns/pattern-a"
+    },
+    {
+      "from": "Pattern B",
+      "nodeColor": "#363636",
+      "href": "patterns/pattern-b"
+    },
+    {
+      "from": "Pattern C",
+      "nodeColor": "#363636",
+      "href": "patterns/pattern-c"
+    },
+    {
+      "from": "Pattern D",
+      "nodeColor": "#363636",
+      "href": "patterns/pattern-d"
+    },
+    {
+      "from": "Pattern E",
+      "nodeColor": "#363636",
+      "href": "patterns/pattern-e"
+    },
+    {
+      "from": "Pattern F",
+      "nodeColor": "#363636",
+      "href": "patterns/pattern-f"
+    },
+    {
+      "from": "Pattern A",
+      "toolTip": "Combines",
+      "linkColor": "#FFDD57",
+      "to": "Pattern D",
+      "value": 1
+    },
+    {
+      "from": "Pattern B",
+      "toolTip": "Combines",
+      "linkColor": "#209CEE",
+      "to": "Pattern D",
+      "value": 1
+    },
+    {
+      "from": "Pattern B",
+      "toolTip": "Uses",
+      "linkColor": "#23D160",
+      "to": "Pattern E",
+      "value": 1
+    },
+    {
+      "from": "Pattern B",
+      "toolTip": "Uses",
+      "linkColor": "#23D160",
+      "to": "Pattern C",
+      "value": 1
+    },
+    {
+      "from": "Pattern C",
+      "toolTip": "Similar",
+      "linkColor": "#209CEE",
+      "to": "Pattern E",
+      "value": 1
+    },
+    {
+      "from": "Pattern E",
+      "toolTip": "Similar",
+      "linkColor": "#209CEE",
+      "to": "Pattern D",
+      "value": 1
+    },
+    {
+      "from": "Pattern C",
+      "toolTip": "Uses",
+      "linkColor": "#23D160",
+      "to": "Pattern A",
+      "value": 1
+    },
+    {
+      "from": "Pattern F",
+      "toolTip": "Similar",
+      "linkColor": "#209CEE",
+      "to": "Pattern A",
+      "value": 1
+    },
+    {
+      "from": "Pattern D",
+      "toolTip": "Similar",
+      "linkColor": "#209CEE",
+      "to": "Pattern B",
+      "value": 1
+    }
+  ]
+}

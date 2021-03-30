@@ -1,0 +1,8 @@
+<svg version="1.1" viewBox="0 0 1600 901" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <g>
+  <image width="1600" height="901" preserveAspectRatio="none" xlink:href="control_room.jpg"/>
+  <ellipse cx="627.5" cy="566" rx="47.94" ry="52.84" style="fill-opacity:0;stroke-width:5.669;stroke:#f00"/>
+  <ellipse cx="146.5" cy="418.9" rx="40.86" ry="45.21" style="fill-opacity:0;stroke-width:5.669;stroke:#f00"/>
+  <path d="m738.7 412.9 197.2 21.79 2.179 154.7-198.3-34.86z" style="fill:none;stroke-width:5.669;stroke:#f00"/>
+ </g>
+</svg>

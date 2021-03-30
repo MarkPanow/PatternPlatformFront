@@ -1,0 +1,134 @@
+@import "~bulma/sass/utilities/initial-variables";
+@import "~bulma/sass/utilities/functions";
+// 1. Set your own initial variables and derived 
+//    variables in _variables.scss
+@import "variables";
+
+@import "~bulma/sass/utilities/derived-variables";
+@import "~bulma";
+@import "~buefy/src/scss/buefy";
+
+
+//  Provide custom buefy overrides and site styles here
+
+html{
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+}
+
+.is-2{
+  min-width: 350px!important;
+}
+
+image{
+  width:100%;
+  max-width:1200px;
+}
+
+.button.is-text {
+  background: none!important;
+  box-shadow: none!important;
+}
+
+.b-table .table {
+  border: none !important
+}
+
+.navbar-item img {
+  max-height: 55px;
+}
+
+
+.b-steps .steps .step-items .step-item.is-active .step-marker {
+  color: white;
+  background-color: $turquoise;
+  border-color: white;
+}
+
+.breadcrumb li {
+  align-items: center;
+  display: inline-block;
+}
+
+a {
+  color: #363636;
+  outline: none;
+}
+
+a:hover {
+  color: #B5B5B5;
+}
+
+.card-content{
+  min-height: 75vh;
+  max-height: 75vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-width: thin;
+  padding-top: 0;
+}
+
+.content {
+  border-bottom: 1px solid whitesmoke;
+  padding-bottom: 0.75em;
+  margin-bottom: 0.75em;
+}
+
+.comment {
+  padding: 1em;
+  box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.02);
+}
+
+.button.is-text {
+  text-decoration: none;
+}
+
+.router-link-active {
+  text-decoration: underline;
+}
+
+.tooltip {
+  display: block !important;
+  z-index: 10000;
+}
+
+.tooltip .tooltip-inner {
+  background: black;
+  color: white;
+  border-radius: 16px;
+  padding: 5px 10px 4px;
+}
+
+.tooltip[x-placement^="top"] {
+  margin-bottom: 5px;
+}
+
+.tooltip[x-placement^="top"] .tooltip-arrow {
+  border-width: 5px 5px 0 5px;
+  border-left-color: transparent !important;
+  border-right-color: transparent !important;
+  border-bottom-color: transparent !important;
+  bottom: -5px;
+  left: calc(50% - 5px);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.tooltip[aria-hidden='true'] {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .15s, visibility .15s;
+}
+
+.tooltip[aria-hidden='false'] {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity .15s;
+}
+
+.modal .animation-content .modal-card {
+  margin: auto;
+}
+
+
+
